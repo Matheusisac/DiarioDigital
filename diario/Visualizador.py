@@ -42,7 +42,7 @@ def Visualizar():
         [sg.Button('Voltar')],
     ]
 
-    janela = sg.Window("Aluguel", layout, finalize=True)
+    janela = sg.Window("Visualizando", layout, finalize=True)
     return janela
 
 
